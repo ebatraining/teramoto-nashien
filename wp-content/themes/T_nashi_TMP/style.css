@@ -1,0 +1,448 @@
+@charset "utf-8";
+/*
+Theme Name: Teramoto_nashi_TMP
+
+
+*/
+
+/* CSS サイトベース */
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+
+body {
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	text-align: center;
+	background-image: url(./images/bg.gif);
+}
+
+#pages {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	text-align: left;
+	position: relative;
+}
+
+h2, h3{
+	position: absolute;
+	font-family: "Hiragino Mincho Pro", "MS Mincho","MS PMincho";
+	font-weight: bold;
+}
+
+h2{
+	width: 700px;
+	text-align: center;
+	color: #f7b529;
+}
+
+h3{
+	color: #70bb2a;
+}
+
+/* CSS テキスト */
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.maintxt {
+	font-size: 15px;
+	font-family: "Hiragino Mincho Pro", "MS Mincho","MS PMincho";
+	line-height: 200%;
+}
+
+.smalltxt {
+	width: 800px;
+	height: 30px;
+	font-size: 70%;
+	text-align: center;
+	color: #fff;
+	background-image:url(./images/botom_bg.gif);
+}
+
+/* CSS ドキュメント */
+#head {
+	width: 800px;
+	height: 398px;
+}
+
+#main01 {
+	width: 800px;
+	background-image:url(./images/main_01_blank.png);
+	height: 656px;
+	position: relative;
+	text-align: left;
+}
+
+#main01 h2{
+	height: 60px;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#main01 h2 span{
+	font-size: 65px;
+}
+
+#main01 h3{
+	width: 400px;
+	height: 35px;
+	padding-top: 5px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#main01 h3.right{
+	margin-left: 395px;
+	margin-top: 145px;
+}
+
+#main01 h3.left{
+	margin-left: 20px;
+	margin-top: 410px;
+}
+
+
+#txtbox1 {
+	width: 370px;
+	margin-left: 415px;
+	margin-top: 196px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+#txtbox2 {
+	width: 350px;
+	margin-left: 38px;
+	margin-top: 456px;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+}
+
+#imgbox1 {
+	width: 359px;
+	margin-top: 145px;
+	margin-left: 13px;
+	float: left;
+	position: absolute;
+}
+
+#imgbox2 {
+	width: 390px;
+	margin-top: 410px;
+	margin-left: 393px;
+	float: right;
+	position: absolute;
+}
+
+
+#main02 {
+	width: 800px;
+	background-image:url(./images/main_03_blank.png);
+	height: 1197px;
+	position: relative;
+	text-align: left;
+}
+
+#main02 h2{
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 65px;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#main02 h3{
+	width: 400px;
+	height: 20px;
+	font-size:30px;
+	font-weight: bold;
+}
+
+#main02 h3.center{
+	margin-top: 145px;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#main02 h3.right, #main02 h3.left{
+	padding-top: 10px;
+}
+
+#main02 h3.right{
+	margin-top: 338px;
+	margin-left: 400px;
+	padding-left: 5px;
+}
+
+#main02 h3.left{
+	margin-top: 665px;
+	margin-left: 50px;
+}
+
+#txtbox3 {
+	width: 520px;
+	margin-left: 65px;
+	margin-top: 190px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+#txtbox4 {
+	width: 330px;
+	margin-left: 427px;
+	margin-top: 381px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+#txtbox5 {
+	width: 320px;
+	margin-left: 65px;
+	margin-top: 714px;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+}
+
+#imgbox3 {
+	width: 345px;
+	margin-top: 338px;
+	margin-left: 40px;
+	float: left;
+	position: absolute;
+}
+
+#imgbox4 {
+	width: 362px;
+	margin-top: 665px;
+	margin-left: 400px;
+	float: right;
+	position: absolute;
+}
+
+
+#main03 {
+	width: 800px;
+	background-image:url(./images/main_05.jpg);
+	height: 672px;
+	position: relative;
+	text-align: left;
+}
+
+#txtbox6 {
+	width: 660px;
+	margin-left: 79px;
+	margin-top: 501px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+#main04 {
+	width: 800px;
+	background-image:url(http://teramoto-nashien.com/wp-content/themes/T_nashi_TMP/images/main_07.jpg);
+	height: 345px;
+	position: relative;
+	text-align: left;
+}
+
+#txtbox7 {
+	width: 310px;
+	margin-left: 57px;
+	margin-top: 84px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+#main05 {
+	width: 800px;
+	background-image:url(./images/botom_bg.gif);
+	height: 71px;
+	position: relative;
+	text-align: left;
+	margin: 30px 0 0 0;
+}
+
+#souryotxt {
+	width: 396px;
+	margin-left: 380px;
+	margin-top: 0px;
+	float: left;
+	position: absolute;
+}
+
+#souryotxt2 {
+	width: 396px;
+	margin-left: 380px;
+	margin-top: 65px;
+	float: left;
+	position: absolute;
+}
+
+#txtbox8 {
+	width: 380px;
+	margin-left: 230px;
+	float: right;
+	position: absolute;
+	top:40px;
+	overflow: hidden;
+	line-height: 170%;
+}
+#txtbox8 p{
+	margin-left: 10px;
+}
+
+#txtbox9 {
+	width: 430px;
+	margin-left: 350px;
+	float: right;
+	position: absolute;
+	top: 40px;
+	overflow: hidden;
+	text-align: right;
+}
+
+#txtbox8 a, #txtbox9 a{
+	color:#000;
+	transition-property: color;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in-out;
+}
+#txtbox8 a:hover, #txtbox9 a:hover{
+	color:#f7b529;
+}
+
+#main05 img{
+	margin-top: 10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#txtbox8 {
+	width: 380px;
+	margin-left: 230px;
+	margin-top: -20px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+	line-height: 170%;
+	}
+}
+
+#txtbox9 {
+	width: 430px;
+	margin-left: 350px;
+	margin-top: -75px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+	text-align: right;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#txtbox9 {
+	width: 430px;
+	margin-left: 350px;
+	margin-top: -25px;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+	text-align: right;
+	}
+}
+
+.clear { clear:both; }
+
+/* CSS ボタン */
+#gobuy {
+	width: 800px;
+	height: 71px;
+}
+
+#gomenu {
+	width: 800px;
+	height: 71px;
+}
+
+/* CSS page.php */
+
+#main06 {
+	width: 800px;
+	height: auto;
+	position: relative;
+	text-align: left;
+	margin: 30px 30px;
+}
+
+
+#endtxt {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+	color: #f00;
+	position: absolute;
+	margin-top: -30px;
+
+}
+
+/* スクロールでfadeinする要素 */
+.fadein, .prefadein {
+		opacity : 0;
+		transform : translate(0, 50px);
+		transition : all 2000ms;
+		}
+/* 要素が画面内に入った状態 */
+.fadein.scrollin, .prefadein.scrollin {
+		opacity : 1;
+		transform : translate(0, 0);
+		}
+		/* スクロールfadein横並び */
+
+.img{
+		-moz-transition-delay:400ms;
+		-webkit-transition-delay:400ms;
+		-o-transition-delay:400ms;
+		-ms-transition-delay:400ms;
+		}
+.txt{
+		-moz-transition-delay:800ms;
+		-webkit-transition-delay:800ms;
+		-o-transition-delay:800ms;
+		-ms-transition-delay:800ms;
+		}
